@@ -4,10 +4,16 @@
 ## node Version 18.8.0
 
 ## React Router 설치
--> npm install react-router-dom —save
+
+```node
+npm install react-router-dom --save
+```
 
 ## Sass 설치
--> npm install node -sass —save
+
+```node
+npm install node -sass —save
+```
 
 ## tailwindcss 설치
 
@@ -27,4 +33,9 @@ module.exports = {
   },
   plugins: [],
 }
+```
+## axios 설치
+
+```node
+npm install axios
 ```
