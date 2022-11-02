@@ -8,3 +8,23 @@
 
 ## Sass 설치
 -> npm install node -sass —save
+
+## tailwindcss 설치
+
+ ```node
+ //Install Tailwind CSS
+ 
+ npm install -D tailwindcss
+ npx tailwindcss init
+ 
+ //'tailwind.config,js' 파일에 아래 코드 넣기
+ 
+ /** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{html,js}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
