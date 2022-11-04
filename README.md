@@ -39,3 +39,9 @@ module.exports = {
 ```node
 npm install axios
 ```
+
+## React Icon 설치
+
+```node
+npm install react-icons --save
+
