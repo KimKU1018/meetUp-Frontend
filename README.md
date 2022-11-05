@@ -44,4 +44,12 @@ npm install axios
 
 ```node
 npm install react-icons --save
+```
+
+## Banner Slider 를 위한 모듈 설치
+
+```node
+npm install --save swiper
+npm install swiper
+``
 
