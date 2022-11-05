@@ -51,5 +51,5 @@ npm install react-icons --save
 ```node
 npm install --save swiper
 npm install swiper
-``
+```
 
