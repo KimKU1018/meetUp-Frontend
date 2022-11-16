@@ -27,11 +27,11 @@ function Footer() {
           </div>
         </div>
 
-        <div className="ikea-business-info-area">
+        <div className="4gate-business-info-area">
           {COMPANY_INFO.map(info => {
             return (
               <div
-                className="ikea-business-info-component-container"
+                className="4gate-business-info-component-container"
                 key={info.title}
               >
                 <FooterBusinessInfo
