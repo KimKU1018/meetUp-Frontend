@@ -44,20 +44,6 @@ export const COMPANY_INFO = [
   },
 ];
 
-export const MEMBERSHIP_SIGNUP_GUIDING_DATA = [
-  {
-    title: "IKEA Family",
-    discription:
-      "지금 IKEA Family에 무료로 가입하고 다양한 멤버 전용 혜택을 누리세요.",
-    buttonText: "IKEA Family 가입하기",
-  },
-  {
-    title: "IKEA Business Network",
-    discription:
-      "여러분의 더 나은 비즈니스 환경을 위한 다양한 혜택들을 받으세요",
-    buttonText: "IKEA Business Network 가입하기",
-  },
-];
 
 export const FOOTER_ICON_DATA = [
   {
