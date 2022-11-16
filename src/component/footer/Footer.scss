@@ -1,0 +1,145 @@
+.footer-frame {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+
+  .footer-main {
+    display: flex;
+    .footer-main-menu-box-container {
+      display: flex;
+      .footer-main-menu-box {
+        width: 170px;
+        margin-right: 60px;
+        .footer-main-menu-box-bold-title {
+          margin-bottom: 20px;
+          font-weight: 800;
+        }
+        .each-menu-column-container {
+          margin-bottom: 20px;
+        }
+      }
+    }
+    .membership-signup-area {
+      margin-top: 23px;
+      margin-left: 250px;
+      width: 380px;
+      .footer-signup-component-frame {
+        margin-bottom: 40px;
+
+        width: 240px;
+
+        .footer-signup-component-title {
+          font-size: 18px;
+          font-weight: 800;
+          margin-bottom: 15px;
+        }
+        .footer-signup-component-discription {
+          font-size: 15px;
+          color: #464646;
+          margin-bottom: 15px;
+          line-height: 20px;
+        }
+        .footer-signup-component-to-detail {
+          text-decoration: underline;
+          cursor: pointer;
+          font-size: 15px;
+          margin-bottom: 18px;
+        }
+        .footer-signup-component-button {
+          background-color: black;
+          color: white;
+          padding: 15px;
+          font-size: 12px;
+          border-radius: 18px;
+          font-weight: 700;
+          border: none;
+        }
+      }
+    }
+  }
+  .footer-icon-and-language-area {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    .footer-icon-area {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      position: relative;
+
+      .footer-icon {
+        background-color: none;
+        height: 3px;
+        width: 3px;
+        position: relative;
+        left: -10px;
+        cursor: pointer;
+      }
+
+      .footer-icon-button {
+        width: 35px;
+        height: 35px;
+        margin-right: 20px;
+        border-radius: 30px;
+        background-color: #f5f5f5;
+        border: rgb(219, 219, 219) 1px solid;
+      }
+    }
+    .footer-language-area {
+      width: 200px;
+      display: flex;
+      align-items: center;
+      .change-country-button {
+        margin-right: 10px;
+      }
+      .footer-language-area-button {
+        padding: 10px;
+        font-weight: 600;
+        width: 100px;
+        background-color: #f5f5f5;
+        border: rgb(205, 205, 205) 1px solid;
+        font-size: 12px;
+        border-radius: 20px;
+      }
+      .footer-language-area-button:hover {
+        border-color: #464646;
+      }
+    }
+  }
+  .footer-company-info-area {
+    border-top: 0.5px solid black;
+    padding-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    .footer-company-info-area-bar {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+
+      .footer-website-terms-menu {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        .each-terms:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .ikea-business-info-area {
+      padding-top: 30px;
+      padding-bottom: 50px;
+      .ikea-business-info-component-container {
+        .ikea-business-info-each-item {
+          font-size: 12px;
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
