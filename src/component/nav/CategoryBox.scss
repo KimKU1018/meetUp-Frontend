@@ -1,0 +1,10 @@
+.category-box-wrapper {
+    overflow: hidden;
+    transition: all 0.3s;
+  }
+  .show-category-box {
+    height: 210px;
+  }
+  .hide-category-box {
+    height: 0px;
+  }
