@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.reviewbox{
+    .reviewListHead {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 56px 0 15px 0;
+
+        .reviewSum{
+            font-size: 22px;
+            font-weight: 700;
+        }
+
+        .reviewListRight {
+            .reviewAdd{
+                font-size: 16px;
+
+                .reviewAddDesc {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
