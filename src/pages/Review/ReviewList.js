@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../pages/Review/Review.scss';
+import './Review.scss';
 import ReviewListItem from './ReviewListItem';
-import '../../components/Review/ReviewList.scss';
+import './ReviewList.scss';
 
 const ReviewList = ({ review }) => {
   return (
