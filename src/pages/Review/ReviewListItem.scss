@@ -1,0 +1,30 @@
+@import '../../styles/variables.scss';
+
+.reviewlistitem {
+  padding: 23px 0;
+  border-bottom: 1px solid $gray;
+
+  .reviewHead {
+    display: flex;
+    justify-content: space-between;
+
+    .reviewMenu {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+  }
+
+  .starBox {
+    margin-bottom: 20px;
+
+    span {
+      &:nth-child(2) {
+        margin-right: 10px;
+      }
+    }
+  }
+  .reviewBoxWrap {
+    display: flex;
+  }
+}
