@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/Review/ReviewImg.scss';
+import './ReviewImg.scss';
 
 const ReviewImg = ({ imageSrc, title }) => {
   return (
