@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.reviewimg {
+  position: relative;
+  width: 186px;
+  height: 116px;
+  overflow: hidden;
+  background-color: #000;
+  margin-right: 15px;
+
+  img {
+    @include positionCenter;
+  }
+}
