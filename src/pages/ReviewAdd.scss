@@ -1,0 +1,174 @@
+@import '../../styles/variables.scss';
+
+.reviewadd {
+    .reviewWriteWarp {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 100%;
+      z-index: 100;
+      background-color: rgba(0, 0, 0, 0.5);
+      overflow-y: auto;
+    }
+  
+    .reviewWriteFrom {
+      position: absolute;
+      top: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 760px;
+      margin: 50px;
+      padding: 40px;
+      border-radius: 5px;
+      background-color: #fff;
+  
+      .reviewWriteHead {
+        font-size: 20px;
+        font-weight: 900;
+        text-align: center;
+        padding: 15px;
+      }
+  
+      .menuSelect {
+        position: relative;
+        width: 100%;
+        height: 64px;
+        line-height: 2.1;
+        margin: 30px 0;
+        padding: 15px;
+        border: 1px solid #c0c6cc;
+        border-radius: 5px;
+        background-color: #fff;
+  
+        &.show {
+          .menuSelectBox {
+            display: block;
+          }
+        }
+        .menuSelectBox {
+          position: absolute;
+          top: 63px;
+          left: 0;
+          display: none;
+          width: 100%;
+          font-size: 16px;
+          background-color: #fff;
+          border: 1px solid #c0c6cc;
+          border-radius: 6px;
+          z-index: 10;
+  
+          li {
+            padding: 10px;
+            height: 50px;
+            cursor: pointer;
+  
+            &:hover {
+              background-color: $mainColor;
+            }
+          }
+        }
+      }
+
+      .reviewWriteForm {
+        .reviewFileTitle {
+          @include formLabel();
+          margin-bottom: 15px;
+        }
+  
+        .reviewFileDesc {
+          font-size: 13px;
+          margin-bottom: 15px;
+        }
+  
+        .reviewFileUplode {
+          position: relative;
+          @include formBtn();
+  
+          &:hover {
+            background-color: $mainDarkColor;
+          }
+  
+          .reviewFileUplodeTitle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+          }
+  
+          .reviewFileUplodeInput {
+            width: 100%;
+            opacity: 0;
+            cursor: pointer;
+          }
+        }
+  
+        .reviewWrite {
+          width: 100%;
+  
+          label {
+            display: block;
+            @include formLabel();
+            margin-bottom: 15px;
+          }
+  
+          textarea {
+            padding: 15px;
+            width: 100%;
+            height: 150px;
+            border: 1px solid #c0c6cc;
+            border-radius: 5px;
+            resize: none;
+  
+            &::placeholder {
+              font-size: 16px;
+              font-weight: 600;
+              color: #c0c6cc;
+            }
+          }
+        }
+  
+        .reviewSubmitBtn {
+          @include formBtn;
+  
+          &:hover {
+            background-color: $mainDarkColor;
+          }
+  
+          &:disabled {
+            background-color: $mainDarkColor;
+            cursor: default;
+          }
+        }
+      }
+
+      details {
+        padding: 20px;
+        background-color: #f7f9fa;
+  
+        summary {
+          @include formLabel();
+        }
+  
+        .detailsDesc {
+          margin-top: 10px;
+  
+          .detail {
+            font-size: 12px;
+            line-height: 1.2;
+            color: #2f3438;
+          }
+        }
+      }
+  
+      .close {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        font-size: 20px;
+      }
+    }
+  }
+  
