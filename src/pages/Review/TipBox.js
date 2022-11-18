@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../components/Review/TipBox.scss';
+import './TipBox.scss';
 
 const TipBox = () => {
   return (
