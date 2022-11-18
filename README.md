@@ -39,3 +39,17 @@ module.exports = {
 ```node
 npm install axios
 ```
+
+## React Icon 설치
+
+```node
+npm install react-icons --save
+```
+
+## Banner Slider 를 위한 모듈 설치
+
+```node
+npm install --save swiper
+npm install swiper
+```
+

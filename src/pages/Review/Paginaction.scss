@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.pagination {
+    text-align: center;
+    margin: 50px;
+
+    .paginationBtn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        font-weight: 700;
+
+        &:hover {
+            background-color: #fabf01;
+        }
+    }
+}
