@@ -1,7 +1,7 @@
 import React from 'react';
 import ReviewImg from './ReviewImg';
 import TipBox from './TipBox';
-import '../../components/Review/ReviewListItem.scss';
+import './ReviewListItem.scss';
 
 const ReviewListItem = ({ title, date, userId, userInput, imageSrc }) => {
   return (
