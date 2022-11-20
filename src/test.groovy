@@ -43,7 +43,7 @@ class TestRunner {
 	@BeforeProcess
 	public static void beforeProcess() {
 		HTTPPluginControl.getConnectionDefaults().timeout = 6000
-		test = new GTest(1, "groad-rds-instance.c1yyh7n1qjfx.ap-northeast-2.rds.amazonaws.com")
+		test = new GTest(1, "ec2-15-165-249-162.ap-northeast-2.compute.amazonaws.com")
 
 		request = new HTTPRequest()
 		grinder.logger.info("before process.");
@@ -65,7 +65,7 @@ class TestRunner {
 
 	@Test
 	public void test(){
-		HTTPResponse result = request.GET("groad-rds-instance.c1yyh7n1qjfx.ap-northeast-2.rds.amazonaws.com/api/member", params)
+		HTTPResponse result = request.GET("ec2-15-165-249-162.ap-northeast-2.compute.amazonaws.com/api/member", params)
 	
 		if (result.statusCode == 301 || result.statusCode == 302) {
 			grinder.logger.warn("Warning. The response may not be correct. The response code was {}.", result.statusCode); 
