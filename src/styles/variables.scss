@@ -1,0 +1,36 @@
+$phone: "only screen and (max-width : 769px)";
+$desktop: "screen and (min-width : 769px)";
+
+@mixin flex($justify: center, $align: center, $direction) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+  }
+  @mixin modal-background {
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: 999;
+  }
+  
+  @font-face {
+    font-family: "Noto Sans KR", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  $wekea-blue: #46ADD5;
+  $wekea-dark-blue: #A9f99E;
+  $wekea-gray: #dfdfdf;
+  $wekea-dark-gray: #929292;
+
+  @media #{$phone} {
+    //블록 안의 코드는 767px 이하에서만 적용된다.
+  }
+  @media #{$desktop} {
+    //블록 안의 코드는 767px 이상에서만 적용된다.
+  }
