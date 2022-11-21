@@ -1,0 +1,73 @@
+@-webkit-keyframes menuBarMount {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes menuBarMount {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @-webkit-keyframes modalBgAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes modalBgAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes sideModalAnimation {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @keyframes sideModalAnimation {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  @-webkit-keyframes imageModalOpenAnimation {
+    from {
+      scale: 0;
+    }
+    to {
+      scale: 1;
+    }
+  }
+  @keyframes imageModalOpenAnimation {
+    from {
+      scale: 0;
+    }
+    to {
+      scale: 1;
+    }
+  }
+  .modal-bg-unmount {
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .side-modal-unmount {
+    transform: translateX(100%);
+    transition: all 0.3s;
+  }
+  
