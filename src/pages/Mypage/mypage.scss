@@ -1,0 +1,131 @@
+.mypage {
+  padding: 50px 0;
+  background-color: #eee;
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 0px auto;
+    background-color: white;
+    border: 1px solid lightgrey;
+
+    .header {
+      text-align: center;
+      margin: 21px 21px 13px;
+      .title {
+        font-family: 'Noto Sans', serif;
+        font-size: 30px;
+      }
+      p {
+        margin-top: 13px;
+        font-size: 14px;
+        color: #665844;
+        opacity: 0.6;
+      }
+      
+      .divideror {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px;
+      vertical-align: middle;
+      .divideror-line {
+        width: 169px;
+        height: 1px;
+        background-color: rgba(102, 88, 68, 0.1);
+        margin-top: 10px;
+      }
+      span {
+        display: flex;
+        width: 32px;
+        margin: 0 15px;
+        color: #11DDB1;
+        text-align: center;
+        font-size: 11px;
+      }
+    }
+
+    .account-type-box {
+      display: flex;
+      .btn {
+        width: 350px;
+        text-align: center;
+        padding: 10px 30px;
+        background-color: #928470;
+        color: white;
+        &:hover {
+          background-color: #7a6951;
+          cursor: pointer;
+        }
+      }
+    }
+    
+    .univ {
+      display: flex;
+      margin-top: 10px;
+      div {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        input {
+          padding: 10px;
+          margin-top: 10px;
+          border: 1px solid lightgray;
+        }
+        .input-text {
+          font-size: 17px;
+          opacity: 0.6;
+        }
+        .string {
+          display: block;
+          font-weight: bold;
+          color: #665844;
+          opacity: 0.6;
+        }
+      }
+
+      .form-actions {
+        text-align: center;
+        .account-form-actions-sidetext {
+          color: #bfaf96;
+          .text-link {
+            color: #928470;
+            text-decoration: underline;
+            cursor: pointer;
+          }
+        }
+        .btn {
+          background-color: #928470;
+          color: white;
+          border: none;
+          &:hover {
+            background-color: #7a6951;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    
+    .account-postbox {
+      color: #bfaf96;
+      padding: 10px 0;
+      .text-link {
+        margin-left: 10px;
+        color: #928470;
+        text-decoration: underline;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+      
+      
+      
+      
+   
