@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import ResumeButton from './ResumeButton';
+import DeleteButton from './DeleteButton';
 import API from '../../../config';
 
 const DetailComment = ({
