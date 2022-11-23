@@ -174,7 +174,7 @@ const ResumeFooter = ({ postId }) => {
   );
 };
 
-export default DetailFooter;
+export default ResumeFooter;
 
 const DetailComments = styled.div`
   width: 720px;
